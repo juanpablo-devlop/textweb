@@ -119,3 +119,74 @@ main {
   padding: 6px 20px;
   margin-left: -10px;
 }
+.publish {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+flex: 1;
+padding:0 15px;
+}
+.publish h3 {
+  font-family: 'Alegreya', serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+.publish > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.publish > form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.publish > form p {
+  color: #025157;
+  margin-right: 18px;
+}
+
+.publish input {
+  border: 1px solid #b6b6b6;
+  padding: 6px 20px;
+  border-radius: 8px;
+  height: 100%;
+}
+.publish button {
+  background-color: #025157;
+  color: #fff;
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 100%;
+  padding: 6px 20px;
+  margin-left: -10px;
+}
+.promo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.promo img{
+  width: 120px;
+}
+.go-to-action{
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding: 0 100px;
+
+}
+.fixed-deader{
+  position: fixed;
+  background-color: #fffbf7;
+  
+}
